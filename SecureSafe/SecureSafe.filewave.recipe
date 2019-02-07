@@ -32,7 +32,7 @@
             <key>Arguments</key>
             <dict>
                <key>input_plist_path</key>
-               <string>%RECIPE_CACHE_DIR%/downloads/unpack/Core.pkg/PackageInfo.plist</string>
+               <string>%RECIPE_CACHE_DIR%/downloads/unpack/Core.pkg/PackageInfo</string>
                <key>plist_version_key</key>
                <string>CFBundleVersion</string>
             </dict>
