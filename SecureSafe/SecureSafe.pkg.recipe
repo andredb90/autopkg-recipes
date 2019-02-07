@@ -31,26 +31,6 @@
          <dict>
             <key>Arguments</key>
             <dict>
-               <key>pattern</key>
-               <string>%RECIPE_CACHE_DIR%/downloads/unpack/*SecureSafe*.pkg</string>
-            </dict>
-            <key>Processor</key>
-            <string>FileFinder</string>
-         </dict>
-         <dict>
-            <key>Arguments</key>
-            <dict>
-               <key>destination_path</key>
-               <string>%RECIPE_CACHE_DIR%/downloads/payload</string>
-               <key>pkg_payload_path</key>
-               <string>%found_filename%/Payload</string>
-            </dict>
-            <key>Processor</key>
-            <string>PkgPayloadUnpacker</string>
-         </dict>
-         <dict>
-            <key>Arguments</key>
-            <dict>
                <key>input_plist_path</key>
                <string>%RECIPE_CACHE_DIR%/downloads/unpack/Core.pkg/PackageInfo</string>
                <key>plist_version_key</key>
