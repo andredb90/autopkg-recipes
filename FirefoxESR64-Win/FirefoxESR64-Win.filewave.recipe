@@ -11,7 +11,7 @@
         <key>NAME</key>
         <string>FirefoxESR64</string>
         <key>fw_app_bundle_id</key>
-	      <string>com.github.andredb90.filewave.FirefoxESR64-Win</string>
+	<string>com.github.andredb90.filewave.FirefoxESR64-Win</string>
     </dict>
     <key>MinimumVersion</key>
     <string>1.0.0</string>
